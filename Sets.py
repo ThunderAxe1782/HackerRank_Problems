@@ -7,6 +7,5 @@ methods = {
 }
 for _ in range(10):
     method, *args = input().split()
-    print(args)
     methods[method](*map(int,args))
     
